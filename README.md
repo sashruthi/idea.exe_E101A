@@ -1,6 +1,6 @@
 # idea.exe_E101A
 hackathon
-## WorkForce Contribution Monitor
+## The WorkForce Contribution Monitor
 
 ## Wrok FLow:
    1. The Workforce Contribution Monitor is a system that helps managers understand real contribution in engineering teams by distinguishing visible activity from actual impact. 
