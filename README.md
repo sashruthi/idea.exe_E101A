@@ -83,6 +83,16 @@ The dashboard displays:
    - Work type breakdown
    - Contribution timeline
 
+## Workflow
+
+The system follows a straightforward workflow:
+
+1. Managers connect GitHub and Slack as data sources
+2. GitHub provides execution signals such as pull requests, bug fixes, code reviews, and ownership of critical components
+3. Slack provides communication metadata like message counts, mentions, and reactions — without analyzing the actual message content
+4. All incoming data is normalized into unified developer profiles and stored securely, ensuring consistency and reliability across the system
+5. Contribution scores are calculated over configurable time windows using multiple dimensions
+
 ## Data Sources
 
 Currently uses mock data. In a production environment, this would integrate with:
